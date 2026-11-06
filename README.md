@@ -1,7 +1,9 @@
 # ☀️ Morning English
 
 매일 아침 **TOEIC 10문항**, **OPIc 말하기 3문항**, **단어 10개**를 연습하는 웹앱입니다.
-서버나 빌드 과정 없이 HTML·CSS·JavaScript만으로 동작하고, 기록은 각자의 브라우저에 저장됩니다.
+서버나 빌드 과정 없이 HTML·CSS·JavaScript만으로 동작합니다. 기록은 브라우저에 저장되고, 로그인하면 Supabase로 여러 기기에서 동기화됩니다.
+
+**사이트:** https://morning-english-sage.vercel.app
 
 ## 기능
 
