@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Morning English – TOEIC & OPIc</title>
+<meta name="description" content="매일 아침 TOEIC 10문항, OPIc 말하기 3문항, 단어 10개. 오답 복습과 순환 출제로 1년 동안 꾸준히 연습하는 앱.">
+<meta name="theme-color" content="#fdf8f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1b22" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Morning English">
+<meta property="og:description" content="매일 아침 TOEIC 10문항 + OPIc 말하기 3문항">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>☀️ Morning English</h1>
+  <nav><button data-v="home">오늘</button><button data-v="wordbook">단어장</button><button data-v="hist">기록</button></nav>
+</header>
+<main id="app"></main>
+<!-- 문제 은행: data 폴더의 파일들. 새 파일을 만들면 여기에 한 줄 추가하세요. -->
+<script src="data/bank.js"></script>
+<script src="data/listening.js"></script>
+<script src="data/listening2.js"></script>
+<script src="data/grammar1.js"></script>
+<script src="data/grammar2.js"></script>
+<script src="data/reading1.js"></script>
+<script src="data/reading2.js"></script>
+<script src="data/opic.js"></script>
+<script src="data/vocab1.js"></script>
+<script src="data/vocab2.js"></script>
+<script src="data/vocab3.js"></script>
+<script src="data/vocab4.js"></script>
+<script src="app.js"></script>
+<!-- 로그인·기록 동기화 (config.js에 Supabase 정보가 있을 때만 동작) -->
+<script src="vendor/supabase.js"></script>
+<script src="config.js"></script>
+<script src="sync.js"></script>
+</body>
+</html>
