@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Vercel CLI
+.vercel/
+
+# Windows build output (upload to GitHub Releases instead)
+windows/build/
+*.exe
+*.o
+*.zip
