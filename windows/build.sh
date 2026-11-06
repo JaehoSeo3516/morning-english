@@ -11,7 +11,7 @@ mkdir -p build
 python3 - "$ROOT" <<'PY'
 import os, sys
 root = sys.argv[1]
-files = ["index.html", "app.js", "style.css", "favicon.png", "apple-touch-icon.png"] + ["data/" + f for f in sorted(os.listdir(root + "/data")) if f.endswith(".js")]
+files = ["index.html", "app.js", "style.css", "sync.js", "config.js", "vendor/supabase.js", "favicon.png", "apple-touch-icon.png"] + ["data/" + f for f in sorted(os.listdir(root + "/data")) if f.endswith(".js")]
 h = ["typedef struct { int id; const wchar_t *name; } AppFile;", "static const AppFile FILES[] = {"]
 rc = ['#include <winver.h>', '1 ICON "app.ico"', '1 24 "app.manifest"']
 for i, f in enumerate(files):
