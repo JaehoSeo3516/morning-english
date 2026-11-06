@@ -6,5 +6,5 @@ window.ME_CONFIG = {
   supabaseUrl: "https://ztcgjsofnpwnjtfdcvkq.supabase.co",
   supabaseKey: "sb_publishable_BIM49lY4Zh12PqdncXl4ew_ivRphRig",
   // 가입 확인·비밀번호 재설정 메일의 링크가 열릴 주소 (배포한 사이트 주소)
-  siteUrl: ""
+  siteUrl: "https://morning-english-sage.vercel.app"
 };
